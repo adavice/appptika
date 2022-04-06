@@ -20,7 +20,7 @@ $(document).ready(function(){
             }
          });
     }
-// contact button
+    // contact button
     let placementDiv = document.getElementsByTagName('body')[0];
     console.log(placementDiv.dataset);
     //add data-nobutton="1" in body to hide

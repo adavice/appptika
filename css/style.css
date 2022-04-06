@@ -347,7 +347,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 /*--Trend--*/
 .trend-ltpwrlayouts,.new-ltpwr-agile,.services-agileits-ltpwrlayouts,.about-agileinfo,.team-ltpwrlayouts,.gallery-ltpwrlayouts,.contact-agileinfo,.events-ltpwrlayouts,.blog,
-.game_page_links,
 .right_card
 {
 	margin-top: 50px;
@@ -864,17 +863,6 @@ p.agileinfo{
 .about-grid-left-agileits-ltpwrlayouts ul li i{
 top: 3px;
 }
-.round_num {
-	padding: 3px 9px;
-	background: #e081e2;
-	color: #fff;
-	border-radius: 60%;
-	font-style: normal;
-	position: absolute;
-	left: -35px;
-	top: -3px;
-	display: block;
-}
 .card_row {
 	display: flex;
 }
@@ -888,7 +876,7 @@ top: 3px;
 .form_descr {
 	position: relative;
 	color: #fff;
-	text-align: left;
+	text-align: center;
 	max-width: 80%;
 	display: block;
 	margin-left: auto;
@@ -1707,27 +1695,31 @@ form .form-hint b {
 	text-shadow: 0 0 10px #000;*/
 }
 
-#sub_menu  a:hover {
-	color: #fff;
-	text-shadow: 0 0 10px #fff;
-}
-
 #sub_menu > li > a{
 	color: var(--bright);
+	font-weight: 600;
+}
+
+#sub_menu  a:hover {
+	color: rgba(224, 129, 226, 1);
+	text-shadow: 0 0 10px rgba(224, 129, 226, 1);
 }
 
 #sub_menu {
 	padding-left: 10px;
+	padding-right: 10px;
 	display: none;
 	height: max-content;
 	position: absolute;
 	width: max-content;
 	list-style: none;
-	margin-top: 50px;
-	border-left: 2px solid var(--secondary);
+	margin-top: 0px;
+	border-left: 2px solid rgba(224, 129, 226, 1);
+	background-color: #fff;
 }
+
 .main #sub_menu {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 #profile svg {
@@ -3075,7 +3067,7 @@ li>a {
 		position: relative;
 		margin-top: 0;
 		margin-left: 27px;
-		border-left: 2px solid var(--secondary);
+		border-left: 2px solid rgba(224, 129, 226, 1);
 		margin-bottom: 20px;
 	}
 	.navbar-header h1 {
@@ -3860,7 +3852,7 @@ li>a {
 	font-size: 16px;
 }
 
-.web_section, .game_page_links{
+.web_section {
 	display: flex;
 	align-items: center;
 }
@@ -3870,8 +3862,7 @@ li>a {
 	padding: 20px;
 }
 
-.web_section a,
-.game_page_links a{
+.web_section a {
 	font-size: 14px;
 	font-weight: normal;
 	background-color: #fff;
@@ -3895,23 +3886,6 @@ li>a {
 	margin-bottom: 0 !important;
 	padding: 0 15px;
 	font-size: 18px !important;
-}
-
-.game_page_links{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.game_page_links img{
-	height: 35px;
-    width: 35px;
-}
-
-.game_page_links span{
-	font-size: 15px;
-	font-weight: 600;
-	padding-left: 20px;
 }
 
 .page_links{
@@ -3992,24 +3966,9 @@ li>a {
     padding-right: 20px;
 }
 
-
 @media screen and (max-width: 830px){
-	.game_page_links{
-		justify-content: center;
-	}
-
 	.page_links{
 		margin-right: 0px;
-	}
-
-	.game_page_links a:nth-child(2){
-		display: none;
-	}
-}
-
-@media screen and (max-width: 768px){
-	.game_page_links:nth-child(1){
-		margin-top: 15px;
 	}
 }
 
