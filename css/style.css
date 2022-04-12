@@ -541,8 +541,8 @@ h3.game_title {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 2em;
-    letter-spacing: 2px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
 }
 .view p {
    font-size: 1em;
@@ -3975,5 +3975,138 @@ li>a {
 @media screen and (max-width: 667px){
 	.videobg_block{
 		flex-wrap: wrap;
+	}
+}
+
+.img-ltpwr-agile a{
+	display: block;
+	height: 105px;
+}
+
+@media screen and (max-width: 992px){
+	.img-ltpwr-agile a{
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.img-ltpwr-agile a{
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 475px){
+	.img-ltpwr-agile a{
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.img-ltpwr-agile a{
+		height: 35px;
+	}
+}
+
+.new-grid-ltpwrl img{
+	height: 344px;
+}
+
+@media screen and (max-width:1200px){
+	.new-grid-ltpwrl img{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width:992px){
+	.new-grid-ltpwrl img{
+		height: 440px;
+	}
+}
+
+@media screen and (max-width:991px){
+	.new-grid-ltpwrl img{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width:990px){
+	.new-grid-ltpwrl img{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.new-grid-ltpwrl img{
+		height: 215px;
+	}
+}
+
+@media screen and (max-width:755px){
+	.new-grid-ltpwrl img{
+		height: 194px;
+	}
+}
+
+@media screen and (max-width:700px){
+	.new-grid-ltpwrl img{
+		height: 178px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.new-grid-ltpwrl img{
+		height: 160px;
+	}
+}
+
+@media screen and (max-width:550px){
+	.new-grid-ltpwrl img{
+		height: 144px;
+	}
+}
+
+@media screen and (max-width:481px){
+	.new-grid-ltpwrl img{
+		height: auto;
+	}
+}
+
+.img-responsive.zoom-img{
+	height: 170px;
+}
+
+@media screen and (max-width:1200px){
+	.img-responsive.zoom-img{
+		height: 141px;
+	}
+}
+
+@media screen and (max-width:993px){
+	.img-responsive.zoom-img{
+		height: 115px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.img-responsive.zoom-img{
+		height: 117px;
+	}
+}
+
+@media screen and (max-width:667px){
+	.img-responsive.zoom-img{
+		height: 95px;
+	}
+}
+
+@media screen and (max-width:569px){
+	.img-responsive.zoom-img{
+		height: 162px;
+	}
+}
+
+@media screen and (max-width:480px){
+	.img-responsive.zoom-img{
+		height: auto;
 	}
 }
