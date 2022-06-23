@@ -2243,8 +2243,13 @@ li>a {
 	padding: 5px;
 	border: 1px solid var(--bright);
 }
+h2.terms_title{
+	font-weight: bold; 
+	text-transform: uppercase;
+}
 .terms ul {
-	list-style: none;
+	list-style-type: disc; 
+	padding-left: 15px;
 }
 /*--game page--*/
 .game .wthree_blog_left ul{
